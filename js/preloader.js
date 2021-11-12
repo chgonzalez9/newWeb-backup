@@ -1,13 +1,3 @@
-/*-----------------------------------------------------------------------------------------
-* Template Name      :  Kayden - Personal Bootstrap 5 HTML Portfolio Template              |
-* Author             :  Narek Sukiasyan                                                    |
-* Version            :  1.0.0                                                              |
-* Created            :  May 2021                                                           |
-* Updated            :  May 2021                                                           |
-* File Description   :  Preloader JS file of the template                                  |
-*------------------------------------------------------------------------------------------
-*/
-
 /* 
 -------------------------------
 Controlling Header Transparency 
@@ -16,9 +6,9 @@ Controlling Header Transparency
 function transparent_header()
 {
     if ( $(window).scrollTop() < Math.floor( (window.innerHeight * 0.12), 10 ) ) {
-        $('.kayden-header > .header-inside').addClass('transparent_header');
+        $('.theme-header > .header-inside').addClass('transparent_header');
     }else {
-        $('.kayden-header > .header-inside').removeClass('transparent_header'); 
+        $('.theme-header > .header-inside').removeClass('transparent_header'); 
     }
 }
 /* 
@@ -48,7 +38,7 @@ function loaded(elem)
     
     $preloader = $("#preloader");
 
-    var event = new CustomEvent('kaydenLoaded');
+    var event = new CustomEvent('themeLoaded');
 
     $preloader.fadeOut( 400, function(){
 
