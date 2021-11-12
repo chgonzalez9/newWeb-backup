@@ -1,3 +1,12 @@
+/*----------------------------------------------------------------------------------------------
+* Template Name      :  Kayden - Personal Bootstrap 5 HTML Portfolio Template                   |
+* Author             :  Narek Sukiasyan                                                         |
+* Version            :  1.0.0                                                                   |
+* Created            :  May 2021                                                                |
+* Updated            :  June 2021                                                               |
+* File Description   :  Main stylesheet file of the template                                    |
+*-----------------------------------------------------------------------------------------------
+*/
 /******************
 Table of Content
 
@@ -12551,59 +12560,6 @@ header.kayden-header .header-inside .kayden-menu-toggler, header.kayden-header .
 
 #kayden_background_ripple {
   background-size: cover;
-  background-repeat: no-repeat;
-}
-
-/* Particle */
-/* ---- stats.js ---- */
-
-.background-particle{
-  background: #E9F1FF;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
-
-.js-count-particles{
-  font-size: 1.1em;
-}
-
-#stats,
-.background-particle{
-  -webkit-user-select: none;
-  user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
-#stats{
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
-.background-particle{
-  border-radius: 0 0 3px 3px;
-}
-
-
-/* ---- particles.js container ---- */
-
-#particlebackground{
-  width: 100%;
-  height: 100%;
-  background-color: #E9F1FF;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 /*# sourceMappingURL=kayden_6.css.map */
